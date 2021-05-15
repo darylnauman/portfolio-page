@@ -1,0 +1,18 @@
+:root {
+    --main-color: blue;
+}
+
+/* Element Selectors */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--main-color);
+    color: white;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
