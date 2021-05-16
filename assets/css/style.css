@@ -24,25 +24,6 @@ header {
     border-width: 5px;
 }
 
-nav {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-nav ul {
-    display: flex;
-    min-width: 300px;
-    justify-content: space-between;
-    font-size: 100%;
-}
-
-nav a {
-    font-weight: bold;
-    color: white;
-    text-decoration: none;
-}
-
 h1 {
     font-size: 200%;
 }
@@ -62,6 +43,32 @@ section {
     border-color: red;
 }
 
+/* nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+} */
+
+/* Class Selectors */
+
+.nav-list {
+    display: flex;
+    justify-content: space-between;
+    font-size: 100%;
+}
+
+.nav-item {
+    margin: 10px;
+}
+
+.nav-item a {
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+/* ID Selectors */
+
 #contact-me ul {
     display: flex;
     flex-direction: row;
@@ -78,10 +85,13 @@ section {
     padding: 10px;
 }
 
-
-nav li a:hover {
+/* Pseudo-class Selectors */
+.nav-list a:hover {
     color: var(--color-secondary--active);
 }
+
+
+/* Media Queries */
 
 @media screen and (max-width: 768px) {
     header {
