@@ -21,7 +21,7 @@ header {
     border-bottom-color: var(--color-secondary);
     border-bottom-style: solid;
     border-width: 5px;
-    position: fixed;
+    position: sticky;
     top:0;
     width: 100%;
 }
@@ -67,8 +67,6 @@ section {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    /* border-style: solid;
-    border-color:black; */
 }
 
 .contact-item {
@@ -109,4 +107,13 @@ section {
     header {
       flex-direction: column;
     }
+
+    .contact-list {
+        flex-direction: column;
+    }
+
+    .contact-item {
+        padding-left: 0;
+    }
+
 }
