@@ -13,7 +13,6 @@ body {
 
 header {
     display: flex;
-    flex-direction: row;
     align-items: center;
     justify-content:space-between;
     background-color: var(--color-primary);
@@ -42,8 +41,8 @@ main{
 
 section {
     margin: 1%;
-    border-style: solid;
-    border-color: red;
+    /* border-style: solid;
+    border-color: red; */
 }
 
 /* Class Selectors */
@@ -68,19 +67,22 @@ section {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    border-style: solid;
-    border-color:black;
+    /* border-style: solid;
+    border-color:black; */
 }
 
 .contact-item {
     padding: 10px;
+    margin: 5px;
 }
 
 .contact-item a {
     text-decoration: none;
     font-size: 100%;
-    font-weight: bold;
-    color: var(--color-secondary);
+    background-color: var(--color-secondary);
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
 }
 
 /* ID Selectors */
@@ -89,6 +91,15 @@ section {
 /* Pseudo-class Selectors */
 .nav-list a:hover {
     color: var(--color-secondary--active);
+}
+
+.contact-item a:hover {
+    background-color: white;
+    color: var(--color-secondary);
+    border-width: 1px;
+    border-color: var(--color-secondary);
+    border-style: solid;
+    border-radius: 20px;
 }
 
 
