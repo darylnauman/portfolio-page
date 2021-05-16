@@ -67,9 +67,7 @@ section {
     text-decoration: none;
 }
 
-/* ID Selectors */
-
-#contact-me ul {
+.contact-list {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -77,13 +75,19 @@ section {
     border-color:black;
 }
 
-#contact-me a {
+.contact-item {
+    padding: 10px;
+}
+
+.contact-item a {
     text-decoration: none;
     font-size: 100%;
     font-weight: bold;
-    color: var(--color-tertiary);
-    padding: 10px;
+    color: var(--color-secondary);
 }
+
+/* ID Selectors */
+/* None */
 
 /* Pseudo-class Selectors */
 .nav-list a:hover {
