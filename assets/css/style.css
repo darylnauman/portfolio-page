@@ -1,5 +1,9 @@
 :root {
-    --main-color: steelblue;
+    --color-primary:steelblue;
+    --color-secondary: #014769;
+    --color-secondary--active: #004262;
+    --color-tertiary: #861f9e;
+    --color-tertiary--active: #6e049e;
 }
 
 /* Element Selectors */
@@ -11,12 +15,11 @@ header {
     display: flex;
     align-items: center;
     justify-content:space-between;
-    background-color: var(--main-color);
+    background-color: var(--color-primary);
     color: white;
     padding: 1%;
-
 }
-
+    
 nav ul {
     display: flex;
     min-width: 300px;
@@ -32,6 +35,10 @@ nav a {
 
 h1 {
     font-size: 200%;
+}
+
+nav li a:hover {
+    color: var(--color-secondary--active);
 }
 
 @media screen and (max-width: 768px) {
