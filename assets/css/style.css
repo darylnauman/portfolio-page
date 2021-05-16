@@ -13,6 +13,7 @@ body {
 
 header {
     display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content:space-between;
     background-color: var(--color-primary);
@@ -22,7 +23,13 @@ header {
     border-bottom-style: solid;
     border-width: 5px;
 }
-    
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
 nav ul {
     display: flex;
     min-width: 300px;
@@ -39,6 +46,38 @@ nav a {
 h1 {
     font-size: 200%;
 }
+
+h2 {
+    font-size: 150%;
+    color: var(--color-secondary);
+}
+
+main{
+    margin: 1%;
+}
+
+section {
+    margin: 1%;
+    border-style: solid;
+    border-color: red;
+}
+
+#contact-me ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-style: solid;
+    border-color:black;
+}
+
+#contact-me a {
+    text-decoration: none;
+    font-size: 100%;
+    font-weight: bold;
+    color: var(--color-tertiary);
+    padding: 10px;
+}
+
 
 nav li a:hover {
     color: var(--color-secondary--active);
