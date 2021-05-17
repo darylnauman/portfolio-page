@@ -63,6 +63,13 @@ section {
     text-decoration: none;
 }
 
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
 .contact-list {
     display: flex;
     flex-direction: row;
