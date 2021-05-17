@@ -93,14 +93,12 @@ section {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-    /* width: 100%; */
 }
 
 .work-item {
-    height: 200px;
-    width: 300px;
-    margin: 1%;
-    /* background-color: var(--color-tertiary); */
+    height: 400px;
+    width: 600px;
+    margin: 20px;
     border: 1px solid var(--color-primary);
     border-radius: 10px;
     box-shadow: none;
@@ -110,7 +108,7 @@ section {
 .work-item-title {
     text-align: center;
     border-radius: 10px 10px 0px 0px;
-    padding: 2px;
+    padding: 15px;
     background-color: var(--color-primary);
     color:white;
 }
@@ -119,6 +117,33 @@ section {
 
 #work-item-1 {
     flex-grow: 2;
+    background-image: url(../images/portfolio.jpg);
+    background-size: cover;
+}
+
+#work-item-2 {
+    background-image: url(../images/password-generator.jpg);
+    background-size: cover;   
+}
+
+#work-item-3 {
+    background-image: url(../images/code-quiz.jpg);
+    background-size: cover;
+}
+
+#work-item-4 {
+    background-image: url(../images/day-planner.jpg);
+    background-size: cover;
+}
+
+#work-item-5 {
+    background-image: url(../images/weather-dashboard.jpg);
+    background-size: cover;
+}
+
+#work-item-6 {
+    background-image: url(../images/blog.jpg);
+    background-size: cover;
 }
 
 /* Pseudo-class Selectors */
@@ -127,7 +152,7 @@ section {
 }
 
 .work-item:hover {
-    box-shadow: 12px 12px 10px var(--color-primary);
+    box-shadow: 15px 15px 10px var(--color-primary);
 }
 
 .contact-item a:hover {
