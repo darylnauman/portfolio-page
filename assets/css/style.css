@@ -108,6 +108,14 @@ section {
     border-radius: 10px;
 }
 
+.work-item-title {
+    text-align: center;
+    padding: 2px;
+    border: 1px solid red;
+    background-color: var(--color-primary);
+    color:white;
+}
+
 /* ID Selectors */
 
 #work-item-1 {
