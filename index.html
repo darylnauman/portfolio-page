@@ -4,15 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Daryl Nauman</title>
+    
+    <!-- CSS Style Sheets -->
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/style.css">
     
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 </head>
 
 <body>
-
     <!-- Header -->
     <header>
         <h1>Daryl Nauman</h1>
@@ -32,19 +34,22 @@
             <img src="./assets/images/daryl-wide-photo-reduced.png" alt="Photo of Daryl" class="center">
         </figure>
 
-        <!-- About Me -->
+        <!-- About Me Section -->
         <section id="about-me">
             <h2>About Me</h2>
             <p> Hello! My name is Daryl Nauman, and I am an up and coming full-stack web developer. I currently have experience with HTML, CSS and JavaScript. I am passionate about technology and how I can leverage it to improve our lives. I'm based out of Ontario, Canada.</p>
         </section>
 
-        <!-- Work -->
+        <!-- Work Section -->
         <section id="work">
+            
             <h2>Work</h2>
 
+            <!-- <Container for sample work item/cards -->
             <div class="work-container">
-
-                <div class="work-item" id="work-item-1">
+                
+                <!-- Individual work items cards -->
+                <div class="work-item">
                     <h3 class="work-item-title">Code Refactor</h3>
                     <a href="https://darylnauman.github.io/Code_Refactor/" target="_blank">
                         <img src="./assets/images/horiseon-screenshot.jpg" alt="snapshot of website with people around desk">
@@ -93,12 +98,14 @@
                     </a>
                 </div>
             </div>
-
         </section>
 
-        <!-- Contact Me -->
+        <!-- Contact Me Section -->
         <section id="contact-me">
+            
             <h2>Contact Me</h2>
+            
+            <!-- Unordered list for contact items - setup as a flex container in CSS -->
             <ul class="contact-list">
                 <li class="contact-item"><a href="mailto:darylnauman@gmail.com" target="_blank">Email</a></li>
                 <li class="contact-item"><a href="https://twitter.com/DarylNauman" target="_blank">Twitter</a></li>
@@ -107,6 +114,11 @@
             </ul>
         </section>
     </main>
+
+    <!-- Footer -->
+    <footer class="footer-class">
+        <p>Created by Daryl Nauman, &#169; 2021</p>
+    </footer>
     
 </body>
 </html>
