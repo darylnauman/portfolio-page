@@ -1,7 +1,7 @@
 :root {
-    --color-primary:steelblue;
-    --color-secondary: #014769;
-    --color-tertiary: #861f9e;
+    --color-lighter-blue:steelblue;
+    --color-darker-blue: #014769;
+    --color-white: white;
 }
 
 /* ---Element Selectors--- */
@@ -14,10 +14,10 @@ header {
     display: flex;
     align-items: center;
     justify-content:space-between;
-    background-color: var(--color-primary);
-    color: white;
+    background-color: var(--color-lighter-blue);
+    color: var(--color-white);
     padding: 1%;
-    border-bottom-color: var(--color-secondary);
+    border-bottom-color: var(--color-darker-blue);
     border-bottom-style: solid;
     border-width: 5px;
 }
@@ -28,7 +28,7 @@ h1 {
 
 h2 {
     font-size: 150%;
-    color: var(--color-secondary);
+    color: var(--color-darker-blue);
 }
 
 h3, p {
@@ -43,7 +43,7 @@ section {
     margin-top: 1%;
     margin-bottom: 1%;
     border-style: solid;
-    border-color: var(--color-primary);
+    border-color: var(--color-lighter-blue);
     border-radius: 10px;
     padding: 10px;
 }
@@ -63,7 +63,7 @@ section {
 
 .nav-item a {
     font-weight: bold;
-    color: white;
+    color: var(--color-white);
     text-decoration: none;
     font-size: 120%;
 }
@@ -85,9 +85,10 @@ section {
 }
 
 .work-item {
-    flex: 1 0 300px;
+    flex: 1 0 320px;
+    max-width: 640px;
     margin: 20px;
-    border: 1px solid var(--color-primary);
+    border: 1px solid var(--color-lighter-blue);
     border-radius: 10px;
     box-shadow: none;
     transition: box-shadow 0.5s ease;
@@ -97,8 +98,8 @@ section {
     text-align: center;
     border-radius: 10px 10px 0px 0px;
     padding: 5px;
-    background-color: var(--color-primary);
-    color:white;
+    background-color: var(--color-lighter-blue);
+    color:var(--color-white);
 }
 
 .work-item img {
@@ -120,8 +121,8 @@ section {
 .contact-item a {
     text-decoration: none;
     font-size: 100%;
-    background-color: var(--color-primary);
-    color: white;
+    background-color: var(--color-lighter-blue);
+    color: var(--color-white);
     padding: 10px;
     border-radius: 10px;
 }
@@ -133,28 +134,28 @@ section {
 
 /* ---ID Selectors--- */
 
-/* #work-item-1 {
-    flex-grow: 1;
-} */
+#work-item-1 {
+    flex-grow: 2;
+}
 
 /* ---Pseudo-class Selectors--- */
 
 /* Hover for navigation bar links */
 .nav-list a:hover {
-    color: var(--color-secondary);
+    color: var(--color-darker-blue);
 }
 
 /* Hover for work sample cards */
 .work-item:hover {
-    box-shadow: 15px 15px 10px var(--color-primary);
+    box-shadow: 15px 15px 10px var(--color-lighter-blue);
 }
 
 /* Hover for contact items */
 .contact-item a:hover {
-    background-color: white;
-    color: var(--color-primary);
+    background-color: var(--color-white);
+    color: var(--color-lighter-blue);
     border-width: 1px;
-    border-color: var(--color-primary);
+    border-color: var(--color-lighter-blue);
     border-style: solid;
     border-radius: 20px;
 }
