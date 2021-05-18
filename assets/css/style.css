@@ -7,6 +7,7 @@
 /* Element Selectors */
 body {
     line-height: 1.3;
+    font-family: 'Poppins', sans-serif;
 }
 
 header {
@@ -15,7 +16,7 @@ header {
     justify-content:space-between;
     background-color: var(--color-primary);
     color: white;
-    /* padding: 10%; */
+    padding: 1%;
     border-bottom-color: var(--color-secondary);
     border-bottom-style: solid;
     border-width: 5px;
@@ -30,7 +31,7 @@ h2 {
     color: var(--color-secondary);
 }
 
-h3 {
+h3, p {
     font-size: 100%;
 }
 
