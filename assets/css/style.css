@@ -56,6 +56,7 @@ section {
 
 .nav-item {
     margin: 15px;
+    text-align: center;
 }
 
 .nav-item a {
@@ -69,27 +70,7 @@ section {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 90%;
-}
-
-.contact-list {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
-.contact-item {
-    padding: 10px;
-    margin: 5px;
-}
-
-.contact-item a {
-    text-decoration: none;
-    font-size: 100%;
-    background-color: var(--color-primary);
-    color: white;
-    padding: 10px;
-    border-radius: 10px;
+    width: 80%;
 }
 
 .work-container {
@@ -118,6 +99,26 @@ section {
     padding: 15px;
     background-color: var(--color-primary);
     color:white;
+}
+
+.contact-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.contact-item {
+    padding: 10px;
+    margin: 5px;
+}
+
+.contact-item a {
+    text-decoration: none;
+    font-size: 100%;
+    background-color: var(--color-primary);
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
 }
 
 /* ID Selectors */
