@@ -82,8 +82,6 @@ section {
 }
 
 .work-item {
-    height: 250px;
-    width: 400px;
     margin: 20px;
     border: 1px solid var(--color-primary);
     border-radius: 10px;
@@ -92,14 +90,17 @@ section {
 }
 
 .work-item-title {
-    display: block;
     text-align: center;
-    text-decoration: none;
-    font-size: 150%;
     border-radius: 10px 10px 0px 0px;
     padding: 15px;
     background-color: var(--color-primary);
     color:white;
+}
+
+.work-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 0px 0px 10px 10px;
 }
 
 .contact-list {
@@ -126,43 +127,15 @@ section {
 
 #work-item-1 {
     flex-grow: 2;
-    background-image: url(../images/horiseon-screenshot.jpg);
-    background-size: cover;
-}
-
-#work-item-2 {
-    background-image: url(../images/portfolio.jpg);
-    background-size: cover;
-}
-
-#work-item-3 {
-    background-image: url(../images/password-generator.jpg);
-    background-size: cover;   
-}
-
-#work-item-4 {
-    background-image: url(../images/code-quiz.jpg);
-    background-size: cover;
-}
-
-#work-item-5 {
-    background-image: url(../images/day-planner.jpg);
-    background-size: cover;
-}
-
-#work-item-6 {
-    background-image: url(../images/weather-dashboard.jpg);
-    background-size: cover;
-}
-
-#work-item-7 {
-    background-image: url(../images/blog.jpg);
-    background-size: cover;
 }
 
 /* Pseudo-class Selectors */
 .nav-list a:hover {
     color: var(--color-secondary);
+}
+
+.card:hover {
+    box-shadow: 15px 15px 10px var(--color-primary);
 }
 
 .work-item:hover {
