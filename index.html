@@ -1,136 +1,177 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Daryl Nauman</title>
-    
-    <!-- CSS Style Sheets -->
-    <link rel="stylesheet" href="./assets/css/reset.css">
-    <link rel="stylesheet" href="./assets/css/style.css">
-    
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daryl Nauman</title>
+
+  <!-- CSS Style Sheets -->
+  <link rel="stylesheet" href="./assets/css/reset.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <!-- Header -->
-    <header>
-        <h1>Daryl Nauman</h1>
-        <!-- Navigation Bar -->
-        <nav>
-            <ul class="nav-list">
-                <li class="nav-item"><a href="#about-me">About Me</a></li>
-                <li class="nav-item"><a href="#work">Work</a></li>
-                <li class="nav-item"><a href="#contact-me">Contact Me</a></li>
-                <li class="nav-item"><a href="https://drive.google.com/file/d/1Z5cKRYFQSWuw_dYeCpjZbZNtaew6bsfC/view?usp=sharing" target="_blank">Resume</a></li>
+  <header>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #4682b4">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Daryl Nauman</a>
+        <div class="d-flex">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+
+              <li class="nav-item">
+                <a class="nav-link" href="#about-me">About Me</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#work">Work</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#contact-me">Contact Me</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link"
+                  href="https://drive.google.com/file/d/11uytLHmNLSSHPU2tjGtsYL25xmEh4aeY/view?usp=sharing"
+                  target="_blank">Resume</a>
+              </li>
             </ul>
-        </nav>
-    </header>
+          </div>
+        </div>
+    </nav>
+  </header>
 
-    <main>
-        <!-- Photo -->
-        <figure>
-            <img src="./assets/images/daryl-wide-photo-reduced.png" alt="Photo of Daryl" class="center">
-        </figure>
+  <main>
+    <!-- Photo -->
+    <figure>
+      <img src="./assets/images/daryl-wide-photo-reduced.png" alt="Photo of Daryl" class="center">
+    </figure>
 
-        <!-- About Me Section -->
-        <section id="about-me">
-            <h2>About Me</h2>
-            <p>Full-Stack web developer with an Executive MBA and leadership experience at post-secondary institutions. On route to earning a certificate in Full-Stack Web Development by early August 2021. A versatile and dependable individual who loves learning, problem-solving, and advancing team and client goals. Known for providing sound judgment, having attention for detail and a passion for how technology is leveraged to improve our lives. I am based out of Burlington, Ontario.</p>
-            <!-- <p> Hello! My name is Daryl Nauman, and I am an up and coming full-stack web developer. I currently have experience with HTML, CSS and JavaScript. I am passionate about technology and how I can leverage it to improve our lives. I'm based out of Ontario, Canada.</p> -->
-        </section>
+    <!-- About Me Section -->
+    <section id="about-me">
+      <h2>About Me</h2>
+      <p>Full-Stack web developer with an Executive MBA and leadership experience at post-secondary institutions.
+        Completing a certificate in full-stack web development from the University of Toronto School of Continuing
+        Studies (August 2021). A versatile and dependable individual who loves learning, problem-solving, and advancing
+        team and client goals. Known for providing sound judgment, having attention for detail and a passion for
+        leveraging technology to improve lives. I am based out of Burlington, Ontario.</p>
+    </section>
 
-        <!-- Work Section -->
-        <section id="work">
-            
-            <h2>Work</h2>
+    <!-- Work Section -->
+    <section id="work">
+      <h2>Work</h2>
+      <!-- <Container for sample work item/cards -->
+      <div class="work-container">
+        <!-- Individual work items cards -->
+        <div class="work-item" id="work-item-1">
+          <h3 class="work-item-title">Code Refactor</h3>
+          <a href="https://darylnauman.github.io/Code_Refactor/" target="_blank">
+            <img src="./assets/images/horiseon-screenshot.jpg" alt="snapshot of website with people around desk">
+          </a>
+        </div>
 
-            <!-- <Container for sample work item/cards -->
-            <div class="work-container">
-                
-                <!-- Individual work items cards -->
-                <div class="work-item" id="work-item-1">
-                    <h3 class="work-item-title">Code Refactor</h3>
-                    <a href="https://darylnauman.github.io/Code_Refactor/" target="_blank">
-                        <img src="./assets/images/horiseon-screenshot.jpg" alt="snapshot of website with people around desk">
-                    </a>
-                </div>
+        <div class="work-item">
+          <h3 class="work-item-title">Professional Portfolio</h3>
+          <a href="https://darylnauman.github.io/portfolio-page/" target="_blank">
+            <img src="assets/images/portfolio-page-screenshot.png" alt="snapshot of portfolio website">
+            <!-- <img src="./assets/images/portfolio.jpg" alt="laptop on desk with screen showing multiple images"> -->
+          </a>
+        </div>
 
-                <div class="work-item">
-                    <h3 class="work-item-title">Professional Portfolio</h3>
-                    <a href="https://darylnauman.github.io/portfolio-page/" target="_blank">
-                        <img src="assets/images/portfolio-page-screenshot.png" alt="snapshot of portfolio website">
-                        <!-- <img src="./assets/images/portfolio.jpg" alt="laptop on desk with screen showing multiple images"> -->
-                    </a>
-                </div>
-
-                <!-- <div class="work-item">
+        <!-- <div class="work-item">
                     <h3 class="work-item-title">Password Generator</h3>
                     <a href="#work">
                         <img src="./assets/images/password-generator.jpg" alt="hacker code">
                     </a>
                 </div> -->
 
-                <!-- <div class="work-item">
+        <!-- <div class="work-item">
                     <h3 class="work-item-title">Web APIs: Code Quiz</h3>
                     <a href="#work">
                         <img src="./assets/images/code-quiz.jpg" alt="female at desk looking at laptop while biting pencil">
                     </a>
                 </div> -->
 
-                <!-- <div class="work-item">
+        <!-- <div class="work-item">
                     <h3 class="work-item-title">Day Planner</h3>
                     <a href="#work">
                         <img src="./assets/images/day-planner.jpg" alt="paper day planner on table next to plant, laptop and notebook">
                     </a>
                 </div> -->
 
-                <div class="work-item">
-                    <h3 class="work-item-title">Weather Dashboard</h3>
-                    <a href="https://darylnauman.github.io/weather-dashboard/" target="_blank">
-                        <img src="./assets/images/weather-dashboard-screenshot.png" alt="snapshot of weather dashboard website with current city weather and five-day forecast">
-                        <!-- <img src="./assets/images/weather-dashboard.jpg" alt="umbrellas"> -->
-                    </a>
-                </div>
+        <div class="work-item">
+          <h3 class="work-item-title">Weather Dashboard</h3>
+          <a href="https://darylnauman.github.io/weather-dashboard/" target="_blank">
+            <img src="./assets/images/weather-dashboard-screenshot.png"
+              alt="snapshot of weather dashboard website with current city weather and five-day forecast">
+            <!-- <img src="./assets/images/weather-dashboard.jpg" alt="umbrellas"> -->
+          </a>
+        </div>
 
-                <div class="work-item">
-                    <h3 class="work-item-title">Film Dimension - Class Group Project</h3>
-                    <a href="https://andresaponte22.github.io/film-dimension/" target="_blank">
-                        <img src="./assets/images/film-dimension-screenshot.png" alt="snapshot of website with moview review and trailer">
-                    </a>
-                </div>
+        <div class="work-item">
+          <h3 class="work-item-title">Film Dimension - Class Group Project</h3>
+          <a href="https://andresaponte22.github.io/film-dimension/" target="_blank">
+            <img src="./assets/images/film-dimension-screenshot.png"
+              alt="snapshot of website with moview review and trailer">
+          </a>
+        </div>
 
+        <div class="work-item">
+          <h3 class="work-item-title">Plan Your Trip - Class Group Project</h3>
+          <a href="https://github.com/darylnauman/cold-travel-planner" target="_blank">
+            <img src="./assets/images/plan-your-trip-screenshot.png" alt="snapshot of website with navigation bar">
+          </a>
+        </div>
 
-                <!-- <div class="work-item">
+        <!-- <div class="work-item">
                     <h3 class="work-item-title">Tech Blog - Coming Soon</h3>
                     <a href="#work">
                         <img src="./assets/images/blog.jpg" alt="wall with 'get the creativity flowing' writen on it">
                     </a>
                 </div> -->
-            </div>
-        </section>
+      </div>
+    </section>
 
-        <!-- Contact Me Section -->
-        <section id="contact-me">
-            
-            <h2>Contact Me</h2>
-            
-            <!-- Unordered list for contact items - setup as a flex container in CSS -->
-            <ul class="contact-list">
-                <li class="contact-item"><a href="mailto:darylnauman@gmail.com" target="_blank">Email</a></li>
-                <li class="contact-item"><a href="https://twitter.com/DarylNauman" target="_blank">Twitter</a></li>
-                <li class="contact-item"><a href="https://www.linkedin.com/in/darylnauman/" target="_blank">LinkedIn</a></li>
-                <li class="contact-item"><a href="https://github.com/darylnauman" target="_blank">GitHub</a></li>
-            </ul>
-        </section>
-    </main>
+    <!-- Contact Me Section -->
+    <section id="contact-me">
 
-    <!-- Footer -->
-    <footer class="footer-class">
-        <p>Created by Daryl Nauman, &#169; 2021</p>
-    </footer>
-    
+      <h2>Contact Me</h2>
+
+      <!-- Unordered list for contact items - setup as a flex container in CSS -->
+      <ul class="contact-list">
+        <li class="contact-item"><a href="mailto:darylnauman@gmail.com" target="_blank">Email</a></li>
+        <li class="contact-item"><a href="https://twitter.com/DarylNauman" target="_blank">Twitter</a></li>
+        <li class="contact-item"><a href="https://www.linkedin.com/in/darylnauman/" target="_blank">LinkedIn</a></li>
+        <li class="contact-item"><a href="https://github.com/darylnauman" target="_blank">GitHub</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer-class">
+    <p>Created by Daryl Nauman, &#169; 2021</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+    crossorigin="anonymous"></script>
+
 </body>
+
 </html>

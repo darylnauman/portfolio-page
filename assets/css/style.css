@@ -10,7 +10,7 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-header {
+/* header {
     display: flex;
     align-items: center;
     justify-content:space-between;
@@ -20,11 +20,11 @@ header {
     border-bottom-color: var(--color-darker-blue);
     border-bottom-style: solid;
     border-width: 5px;
-}
+} */
 
-h1 {
+/* h1 {
     font-size: 250%;
-}
+} */
 
 h2 {
     font-size: 150%;
@@ -51,7 +51,7 @@ section {
 /* ---Class Selectors--- */
 
 /* Top Left Navigation Bar */
-.nav-list {
+/* .nav-list {
     display: flex;
     justify-content: space-between;
 }
@@ -66,7 +66,7 @@ section {
     color: var(--color-white);
     text-decoration: none;
     font-size: 120%;
-}
+} */
 
 /* Main photo */
 .center {
@@ -142,9 +142,9 @@ section {
 /* ---Pseudo-class Selectors--- */
 
 /* Hover for navigation bar links */
-.nav-list a:hover {
+/* .nav-list a:hover {
     color: var(--color-darker-blue);
-}
+} */
 
 /* Hover for work sample cards */
 .work-item:hover {
@@ -162,7 +162,7 @@ section {
 }
 
 /* ---Media Queries--- */
-
+/* 
 @media screen and (max-width: 768px) {
     header {
       flex-direction: column;
@@ -181,4 +181,4 @@ section {
         padding-left: 0;
     }
 
-}
+} */
