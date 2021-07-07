@@ -4,6 +4,11 @@
 The focus of this homework assignment for the University of Toronto SCS Coding Boot Camp was to create an initial portfolio of work samples (and placeholders for future work). The web application also includes my name, a photo, an about me section, and contact information. We were not provided with starter code and I created the site from scratch using HTML and CSS. In particular, I used recently learned concepts including flexbox, media queries and CSS variables.
 
 ## Key Features
+Update:
+-	Navigation bar was recreated using Bootstrap to be responsive.
+-	Work cards were redone using Bootstrap and include links not just to the project’s deployed site but the GitHub repository as well.
+
+Original:
 - Flexbox is used for the header, navigation bar, work and contact me sections to provide a responsive layout
 - The UI will scroll to the appropriate section when navigation bar links are clicked
 - A pseudo-class selector is used on the navigation bar and contact me items to change how they are displayed when hovered over
